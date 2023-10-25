@@ -75,7 +75,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--hightlight-color)
+  outline: 8px solid var(--hightlight-color);
 }
 
 .Light #switch button {
@@ -151,7 +151,7 @@ footer {
 /*media queries*/
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .Light {
